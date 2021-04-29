@@ -1,2 +1,2 @@
-# Lambda_pics
-Results of Lambda-model simulations (from Kebnekaise HPC)
+# Lambda_mod
+Code and results of Lambda-model simulations (from Kebnekaise HPC)

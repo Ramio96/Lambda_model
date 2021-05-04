@@ -16,5 +16,5 @@ The parameters (unless otherwise specified) are fixed to be:
 
 -<img src="https://render.githubusercontent.com/render/math?math=\lambda = 4">
 
--<img src="https://render.githubusercontent.com/render/math?math=J =">
+-<img src="https://render.githubusercontent.com/render/math?math=J = [[0, 1, 6], [1, 0, 1], [6, 1, 0]]">
 

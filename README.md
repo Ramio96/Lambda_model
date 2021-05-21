@@ -1,5 +1,5 @@
 # Lambda_mod
-### Code and results of Lambda-model simulations (from Kebnekaise HPC)
+### Code and Results for the simulations of the Lambda-model (from Kebnekaise HPC).
 
 The file 3P_L.py contains the code used for the smulations.
 

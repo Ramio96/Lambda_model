@@ -12,7 +12,6 @@ import matplotlib.pyplot as plt
 from time import time
 from matplotlib import colors
 from matplotlib.pyplot import figure
-import multiprocessing as mp
 
 
 
@@ -80,8 +79,7 @@ ax.xaxis.grid(True, which='major')
 ax.set_yticks(lin2, minor=False)
 ax.yaxis.grid(True, which='major')
 ax.grid(True, color='k', lw = 0.9)
-plt.savefig('L_start.png')
-
+plt.savefig('Lambda_' + str(Lambda) + '_C' + str(C) + '_b' + str(beta) + '_phi' + str(Phi) + '_L' + str(L1) + '_J' + str(J[0][2]) + '_ratio' + str(s0p) + str(sposp) + str(snegp) + '_100p.png')
 
 print(' Initial number of y: ', np.count_nonzero(A == 0), '(', (np.count_nonzero(A == 0)*100)/(L1*L2), '%)')
 print(' Initial number of r: ', np.count_nonzero(A == 1), '(', (np.count_nonzero(A == 1)*100)/(L1*L2), '%)')
@@ -259,7 +257,7 @@ ax.xaxis.grid(True, which='major')
 ax.set_yticks(lin2, minor=False)
 ax.yaxis.grid(True, which='major')
 ax.grid(True, color='k', lw = 0.9)
-plt.savefig('L_end' + str(beta) + '_phi' + str(Phi) + '_75perc.png')
+plt.savefig('Lambda_' + str(Lambda) + '_C' + str(C) + '_b' + str(beta) + '_phi' + str(Phi) + '_L' + str(L1) + '_J' + str(J[0][2]) + '_ratio' + str(s0p) + str(sposp) + str(snegp) + '_75p.png')
 
 print(' Actual number of y: ', np.count_nonzero(S == 0), '(', (np.count_nonzero(S == 0)*100)/(L1*L2), '%)')
 print(' Actual number of r: ', np.count_nonzero(S == 1), '(', (np.count_nonzero(S == 1)*100)/(L1*L2), '%)')
@@ -368,7 +366,7 @@ ax.xaxis.grid(True, which='major')
 ax.set_yticks(lin2, minor=False)
 ax.yaxis.grid(True, which='major')
 ax.grid(True, color='k', lw = 0.9)
-plt.savefig('L_end' + str(beta) + '_phi' + str(Phi) + '_50perc.png')
+plt.savefig('Lambda_' + str(Lambda) + '_C' + str(C) + '_b' + str(beta) + '_phi' + str(Phi) + '_L' + str(L1) + '_J' + str(J[0][2]) + '_ratio' + str(s0p) + str(sposp) + str(snegp) + '_50p.png')
 
 print(' Actual number of y: ', np.count_nonzero(S == 0), '(', (np.count_nonzero(S == 0)*100)/(L1*L2), '%)')
 print(' Actual number of r: ', np.count_nonzero(S == 1), '(', (np.count_nonzero(S == 1)*100)/(L1*L2), '%)')
@@ -475,7 +473,7 @@ ax.xaxis.grid(True, which='major')
 ax.set_yticks(lin2, minor=False)
 ax.yaxis.grid(True, which='major')
 ax.grid(True, color='k', lw = 0.9)
-plt.savefig('L_end' + str(beta) + '_phi' + str(Phi) + '_25perc.png')
+plt.savefig('Lambda_' + str(Lambda) + '_C' + str(C) + '_b' + str(beta) + '_phi' + str(Phi) + '_L' + str(L1) + '_J' + str(J[0][2]) + '_ratio' + str(s0p) + str(sposp) + str(snegp) + '_25p.png')
 
 print(' Actual number of y: ', np.count_nonzero(S == 0), '(', (np.count_nonzero(S == 0)*100)/(L1*L2), '%)')
 print(' Actual number of r: ', np.count_nonzero(S == 1), '(', (np.count_nonzero(S == 1)*100)/(L1*L2), '%)')
@@ -584,7 +582,7 @@ ax.xaxis.grid(True, which='major')
 ax.set_yticks(lin2, minor=False)
 ax.yaxis.grid(True, which='major')
 ax.grid(True, color='k', lw = 0.9)
-plt.savefig('L_end' + str(beta) + '_phi' + str(Phi) + '_10perc.png')
+plt.savefig('Lambda_' + str(Lambda) + '_C' + str(C) + '_b' + str(beta) + '_phi' + str(Phi) + '_L' + str(L1) + '_J' + str(J[0][2]) + '_ratio' + str(s0p) + str(sposp) + str(snegp) + '_10p.png')
 
 print(' Actual number of y: ', np.count_nonzero(S == 0), '(', (np.count_nonzero(S == 0)*100)/(L1*L2), '%)')
 print(' Actual number of r: ', np.count_nonzero(S == 1), '(', (np.count_nonzero(S == 1)*100)/(L1*L2), '%)')
